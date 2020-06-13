@@ -133,7 +133,14 @@ nav a {
   padding: 0 1%;
   padding-bottom: 20px;
 }
-
+.top-products {
+	display: flex;
+	flex-direction: column;
+}
+.products-container img {
+	width: 98%;
+	height: auto;
+}
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
